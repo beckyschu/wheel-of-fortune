@@ -1,0 +1,32 @@
+@spinTime: 3;
+@sectorCount: 10;
+@endSector: 2;
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    margin:-180px 0 0 -180px;
+    .buildSpinClasses(1);
+}
+
+.buildSpinClasses(@counter) when (@counter <= @sectorCount) {
+  .buildSpinClasses((@counter + 1));
+  &.sector-@{counter} {
+    animation: ~"spin-@{counter}" ~"@{spinTime}s" cubic-bezier(0.4, 0.2, 0, 1.0) 1s 1;
+    animation-fill-mode: forwards;
+  }
+
+}
+
+.buildSpinKeyframes(@counter) when (@counter <= @sectorCount) {
+  .buildSpinKeyframes((@counter + 1));    // next iteration
+
+  @sector: (360/@sectorCount)*@counter;
+  @keyframes ~"spin-@{counter}" {
+    100% {
+      transform:rotate( (360deg*@spinTime)-@sector );
+    }
+  }
+}
+.buildSpinKeyframes(1);
