@@ -1,0 +1,295 @@
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 360px;
+  margin: -180px 0 0 -180px;
+}
+.image.sector-16 {
+  -webkit-animation: spin-16 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-16 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-15 {
+  -webkit-animation: spin-15 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-15 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-14 {
+  -webkit-animation: spin-14 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-14 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-13 {
+  -webkit-animation: spin-13 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-13 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-12 {
+  -webkit-animation: spin-12 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-12 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-11 {
+  -webkit-animation: spin-11 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-11 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-10 {
+  -webkit-animation: spin-10 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-10 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-9 {
+  -webkit-animation: spin-9 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-9 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-8 {
+  -webkit-animation: spin-8 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-8 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-7 {
+  -webkit-animation: spin-7 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-7 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-6 {
+  -webkit-animation: spin-6 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-6 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-5 {
+  -webkit-animation: spin-5 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-5 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-4 {
+  -webkit-animation: spin-4 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-4 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-3 {
+  -webkit-animation: spin-3 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-3 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-2 {
+  -webkit-animation: spin-2 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-2 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.image.sector-1 {
+  -webkit-animation: spin-1 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+          animation: spin-1 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes spin-16 {
+  100% {
+    -webkit-transform: rotate(13680deg);
+            transform: rotate(13680deg);
+  }
+}
+@keyframes spin-16 {
+  100% {
+    -webkit-transform: rotate(13680deg);
+            transform: rotate(13680deg);
+  }
+}
+@-webkit-keyframes spin-15 {
+  100% {
+    -webkit-transform: rotate(13702.5deg);
+            transform: rotate(13702.5deg);
+  }
+}
+@keyframes spin-15 {
+  100% {
+    -webkit-transform: rotate(13702.5deg);
+            transform: rotate(13702.5deg);
+  }
+}
+@-webkit-keyframes spin-14 {
+  100% {
+    -webkit-transform: rotate(13725deg);
+            transform: rotate(13725deg);
+  }
+}
+@keyframes spin-14 {
+  100% {
+    -webkit-transform: rotate(13725deg);
+            transform: rotate(13725deg);
+  }
+}
+@-webkit-keyframes spin-13 {
+  100% {
+    -webkit-transform: rotate(13747.5deg);
+            transform: rotate(13747.5deg);
+  }
+}
+@keyframes spin-13 {
+  100% {
+    -webkit-transform: rotate(13747.5deg);
+            transform: rotate(13747.5deg);
+  }
+}
+@-webkit-keyframes spin-12 {
+  100% {
+    -webkit-transform: rotate(13770deg);
+            transform: rotate(13770deg);
+  }
+}
+@keyframes spin-12 {
+  100% {
+    -webkit-transform: rotate(13770deg);
+            transform: rotate(13770deg);
+  }
+}
+@-webkit-keyframes spin-11 {
+  100% {
+    -webkit-transform: rotate(13792.5deg);
+            transform: rotate(13792.5deg);
+  }
+}
+@keyframes spin-11 {
+  100% {
+    -webkit-transform: rotate(13792.5deg);
+            transform: rotate(13792.5deg);
+  }
+}
+@-webkit-keyframes spin-10 {
+  100% {
+    -webkit-transform: rotate(13815deg);
+            transform: rotate(13815deg);
+  }
+}
+@keyframes spin-10 {
+  100% {
+    -webkit-transform: rotate(13815deg);
+            transform: rotate(13815deg);
+  }
+}
+@-webkit-keyframes spin-9 {
+  100% {
+    -webkit-transform: rotate(13837.5deg);
+            transform: rotate(13837.5deg);
+  }
+}
+@keyframes spin-9 {
+  100% {
+    -webkit-transform: rotate(13837.5deg);
+            transform: rotate(13837.5deg);
+  }
+}
+@-webkit-keyframes spin-8 {
+  100% {
+    -webkit-transform: rotate(13860deg);
+            transform: rotate(13860deg);
+  }
+}
+@keyframes spin-8 {
+  100% {
+    -webkit-transform: rotate(13860deg);
+            transform: rotate(13860deg);
+  }
+}
+@-webkit-keyframes spin-7 {
+  100% {
+    -webkit-transform: rotate(13882.5deg);
+            transform: rotate(13882.5deg);
+  }
+}
+@keyframes spin-7 {
+  100% {
+    -webkit-transform: rotate(13882.5deg);
+            transform: rotate(13882.5deg);
+  }
+}
+@-webkit-keyframes spin-6 {
+  100% {
+    -webkit-transform: rotate(13905deg);
+            transform: rotate(13905deg);
+  }
+}
+@keyframes spin-6 {
+  100% {
+    -webkit-transform: rotate(13905deg);
+            transform: rotate(13905deg);
+  }
+}
+@-webkit-keyframes spin-5 {
+  100% {
+    -webkit-transform: rotate(13927.5deg);
+            transform: rotate(13927.5deg);
+  }
+}
+@keyframes spin-5 {
+  100% {
+    -webkit-transform: rotate(13927.5deg);
+            transform: rotate(13927.5deg);
+  }
+}
+@-webkit-keyframes spin-4 {
+  100% {
+    -webkit-transform: rotate(13950deg);
+            transform: rotate(13950deg);
+  }
+}
+@keyframes spin-4 {
+  100% {
+    -webkit-transform: rotate(13950deg);
+            transform: rotate(13950deg);
+  }
+}
+@-webkit-keyframes spin-3 {
+  100% {
+    -webkit-transform: rotate(13972.5deg);
+            transform: rotate(13972.5deg);
+  }
+}
+@keyframes spin-3 {
+  100% {
+    -webkit-transform: rotate(13972.5deg);
+            transform: rotate(13972.5deg);
+  }
+}
+@-webkit-keyframes spin-2 {
+  100% {
+    -webkit-transform: rotate(13995deg);
+            transform: rotate(13995deg);
+  }
+}
+@keyframes spin-2 {
+  100% {
+    -webkit-transform: rotate(13995deg);
+            transform: rotate(13995deg);
+  }
+}
+@-webkit-keyframes spin-1 {
+  100% {
+    -webkit-transform: rotate(14017.5deg);
+            transform: rotate(14017.5deg);
+  }
+}
+@keyframes spin-1 {
+  100% {
+    -webkit-transform: rotate(14017.5deg);
+            transform: rotate(14017.5deg);
+  }
+}
