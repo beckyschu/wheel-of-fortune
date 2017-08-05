@@ -5,6 +5,7 @@
   width: 360px;
   margin: -180px 0 0 -180px;
 }
+
 .image.sector-16 {
   -webkit-animation: spin-16 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
           animation: spin-16 13s cubic-bezier(0.4, 0.2, 0, 1) 1s 1;
